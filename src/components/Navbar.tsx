@@ -48,8 +48,9 @@ export default function Navbar() {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                    <button className="text-sm font-medium text-white/90 hover:text-white transition-colors relative group overflow-hidden px-4 py-1.5 rounded-full border border-white/10 hover:border-[#00D6FF]/50 bg-gradient-to-r from-transparent to-transparent hover:from-[#0050FF]/20 hover:to-[#00D6FF]/20">
-                        <span className="relative z-10 transition-colors">Experience WH-1000XM6</span>
+                    <button className="text-sm font-medium text-white/90 hover:text-white transition-colors relative group overflow-hidden px-4 md:px-6 py-1.5 rounded-full border border-white/10 hover:border-[#00D6FF]/50 bg-gradient-to-r from-transparent to-transparent hover:from-[#0050FF]/20 hover:to-[#00D6FF]/20">
+                        <span className="relative z-10 transition-colors hidden md:block">Experience WH-1000XM6</span>
+                        <span className="relative z-10 transition-colors md:hidden">Buy</span>
                     </button>
                 </div>
             </motion.div>
