@@ -6,7 +6,7 @@ import { MotionValue, useMotionValueEvent } from 'framer-motion';
 const FRAME_COUNT = 240;
 
 const currentFrame = (index: number) =>
-    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/driver-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`;
+    `/website--headphone/driver-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`;
 
 interface DriverSequenceProps {
     progress: MotionValue<number>;
